@@ -9,7 +9,7 @@ h1 {
     font-family: 'Staatliches', cursive;
     font-size: 60px;
     text-align: center;
-    border: 2px solid white;
+    border-bottom: 2px solid white;
     padding: 30px;
 
 }
@@ -28,21 +28,13 @@ h3 {
     text-align: left;
     padding: 20px 0px 20px 130px;
 }
-nav {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-}
-form {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 p {
+    margin: 0px 40px 5px 40px;
     color: rgb(0, 0, 0);
     font-family: 'Dosis', sans-serif;
     font-size: 20px;
-    padding-left: 130px;
-    }
+}
 
 article {
     margin: 25px 150px 60px 300px;
@@ -54,12 +46,29 @@ img {
     padding: 15px;
 }
 
-ul {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+nav{
+    text-align: center;
 }
-#welkom {
-    color: rgb(0, 0, 0);
-    font-family: 'Dosis', sans-serif;
+
+nav li{
+    display: inline-block;
+    padding: 20px 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Staatliches', cursive;
     font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+form{
+    color: rgb(122, 115, 115);
+    font-family: 'Staatliches', cursive;
+    font-size: 20px;
+}
+
+input{
+    
 }
