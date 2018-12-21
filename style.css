@@ -57,28 +57,25 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-/*
+/* status links */
 a:link{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-
+*/
 a:visited{
-    text-decoration: none;
-    color: rgb(122, 115, 115);
+    text-decoration: underline;    
 }
 
 a:hover{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
+    color: lightgrey;
 }
 a:active{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-}
-*/
+    color: grey;
+    }
+
 form{
     display: flex;
     flex-direction: row;
